@@ -1,0 +1,11 @@
+h1 {
+    font-size: 30px;
+    padding-top: 20px;
+}
+
+.logo {
+    padding-left: 20px;
+    padding-bottom: 0;
+    width: 150px;
+    height: 150px;
+}
