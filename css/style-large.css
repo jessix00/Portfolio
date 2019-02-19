@@ -5,15 +5,22 @@
 }
 
 h1 {
-    font-size: 50px;
-}
-
-.hero-img {
-    width: 100%;
-    text-align: center;
+    font-size: 45px;
 }
 
 .logo {
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
+}
+
+.main-nav {
+    height: 80px;
+}
+
+.main-nav ul {
+    margin-right: 80px;
+}
+
+.main-nav li {
+    padding-right: 30px;
 }

@@ -1,19 +1,23 @@
-html {
-    border: 5px solid #e75a7c;
+.logo {
+    padding-bottom: 0;
+    width: 100px;
+    height: 100px;
 }
 
-.logo {
-    /* padding-left: 20px; */
-    padding-bottom: 0;
-    width: 80px;
+.main-nav {
     height: 80px;
 }
 
-nav {
-    padding-top: 30px;
+.main-nav ul {
+    margin-right: 10px;
 }
 
-nav a {
-    /* padding: 15px; */
+.main-nav li {
+    /* padding-left: 15px; */
     font-size: 15px;
 }
+
+
+/* .burger {
+    display: none;
+} */

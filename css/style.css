@@ -4,7 +4,7 @@ html {
     padding: 0;
     margin: 0;
     color: #2d3c49;
-    border: 3px solid #e75a7c;
+    /* border: 3px solid #e75a7c; */
     min-width: 300px;
 }
 
@@ -25,47 +25,69 @@ h2 {
 
 .name {
     font-family: 'Lobster', cursive;
+    color: #e75a7c;
 }
 
-.container {
+.nav-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    /* position: fixed;
+    top: 0; */
+}
+
+.logo {
+    width: 30px;
+    height: 30px;
+}
+
+.main-nav {
+    display: flex;
+    flex-wrap: row wrap;
+    flex-grow: 1;
+    justify-content: flex-end;
+    z-index: 1000;
+    width: auto;
+    height: 60px;
+    padding-top: 20px;
+    margin: 0;
+    background-color: #2c363f;
+    font-weight: bold;
+}
+
+.main-nav ul {
+    list-style: none;
     display: flex;
     flex-wrap: wrap;
 }
 
-header {
-    width: 100%;
-    padding: 20px 10px 0 10px;
-    background-color: #fff;
-    margin: 0;
+.main-nav ul li {
+    padding: 5px;
 }
 
-.logo {
-    width: 50px;
-    height: 50px;
-}
-
-nav {
-    float: right;
-    text-align: right;
-    /* text-transform: uppercase; */
-    padding-top: 20px;
-}
-
-nav a {
-    padding: 3px;
+.main-nav ul li a {
     text-decoration: none;
     color: #54a7c4;
-    font-weight: bold;
-    font-size: 10px;
+    font-size: 15px;
+    text-transform: uppercase;
 }
 
-nav a:hover {
+.main-nav a:hover {
     color: #e75a7c;
     text-decoration: underline;
 }
 
+.burger {
+    color: white;
+    font-size: 25px;
+}
+
+.burger:hover {
+    color: #e75a7c;
+}
+
 .hero-section {
-    width: 100%;
+    /* width: 100%; */
     padding: 40px 0 20px 0;
     margin: 5px;
     margin: 15px;
