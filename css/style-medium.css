@@ -1,23 +1,33 @@
-.logo {
-    padding-bottom: 0;
-    width: 100px;
-    height: 100px;
+.burger {
+    display: none;
 }
 
 .main-nav {
     height: 80px;
+    padding-top: 20px;
 }
 
 .main-nav ul {
-    margin-right: 10px;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
 }
 
-.main-nav li {
-    /* padding-left: 15px; */
+.main-nav ul li {
+    padding: 10px;
+}
+
+.main-nav ul li a {
+    display: block;
     font-size: 15px;
 }
 
+.logo {
+    width: 125px;
+    height: 125px;
+}
 
-/* .burger {
+.burger-nav-container {
     display: none;
-} */
+}
