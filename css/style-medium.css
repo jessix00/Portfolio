@@ -31,3 +31,7 @@
 .burger-nav-container {
     display: none;
 }
+
+#hero-section {
+    margin: 15px;
+}
