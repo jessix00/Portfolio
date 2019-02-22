@@ -22,11 +22,6 @@ h2 {
     color: #5f5b6b;
 }
 
-.name {
-    font-family: 'Lobster', cursive;
-    color: #e75a7c;
-}
-
 
 /* MAIN NAVIGATION */
 
@@ -130,16 +125,21 @@ h2 {
 }
 
 
-/* NAVIGATION STYLES END */
+/* PAGE CONTENT */
 
-#hero-section {
+#content-section {
     padding: 150px 0 20px 0;
     margin-right: 15px;
     margin-left: 15px;
 }
 
-#hero-section h1 {
+#content-section h1 {
     padding-bottom: 30px;
+}
+
+.name {
+    font-family: 'Lobster', cursive;
+    color: #e75a7c;
 }
 
 
@@ -159,6 +159,9 @@ h2 {
     line-height: 1.6;
     margin: 15px;
 }
+
+
+/* CONTACT SECTION */
 
 .email-section {
     border-top: solid 3px #e75a7c;
@@ -189,4 +192,21 @@ h2 {
 footer p {
     text-align: center;
     font-size: 15px;
+}
+
+
+/* WORKING ON THIS */
+
+
+/* PROCESS STYLES */
+
+.design-steps {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.design-steps-title {}
+
+.fa-process {
+    font-size: 30px;
 }
