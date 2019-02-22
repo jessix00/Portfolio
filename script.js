@@ -5,7 +5,7 @@ function toggleMenu() {
 }
 //adds height to the hero-section below the navigation
 function addHeight() {
-    var addHeight = document.getElementById('hero-section');
+    var addHeight = document.getElementById('content-section');
     addHeight.classList.toggle('height');
 }
 
