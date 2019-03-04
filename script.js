@@ -1,12 +1,12 @@
 //Toggles our hamburger menu on/off 
 function toggleMenu() {
     var hiddenMenu = document.getElementById('burger-nav');
-    hiddenMenu.classList.toggle('hidden');
+    hiddenMenu.classList.toggle('show');
 }
 //adds height to the hero-section below the navigation
 function addHeight() {
     var addHeight = document.getElementById('content-section');
-    addHeight.classList.toggle('height');
+    addHeight.classList.toggle('content-height-after');
 }
 
 //event listeners
