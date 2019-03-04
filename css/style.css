@@ -95,7 +95,7 @@
     /*Class used only when hamburger menu is toggled*/
     
     .hidden {
-        transform: translate(0px, -999px);
+        transform: translate(-999px, -18px);
         transition: all ease-in-out .9s;
     }
     
