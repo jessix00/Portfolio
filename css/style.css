@@ -180,32 +180,48 @@
     .email-section button {
         margin: 30px;
         padding: 20px;
-        border: 2px solid #e75a7c;
-        color: inherit;
-        background-color: transparent;
+        border: none;
+        color: #fff;
+        background-color: #54a7c4;
         font: inherit;
+        text-transform: uppercase;
+        /* font-weight: bold; */
         cursor: pointer;
         border-radius: 7%;
+        transition: background-color ease 1s;
     }
     
     .email-section button:hover {
-        text-decoration: underline;
+        background-color: #e75a7c;
+        transition: background-color ease 1s;
     }
     
     footer p {
         text-align: center;
         font-size: 15px;
     }
-    /* WORKING ON THIS */
     /* PROCESS STYLES */
     
     .design-steps {
-        display: flex;
-        flex-wrap: wrap;
+        display: inline-block;
+        /* text-align: left; */
+        width: 100%;
+        height: 100px;
     }
     
-    .design-steps-title {}
-    
     .fa-process {
-        font-size: 30px;
+        font-size: 80px;
+        color: #00b3b3;
+        float: left;
+        width: 20%;
+        display: inline-block;
+        margin: 15px 15px 28px 0;
+    }
+    
+    .design-steps-title {
+        display: inline-block;
+        text-align: left;
+        width: 80%;
+        height: 100px;
+        padding: 80px;
     }
