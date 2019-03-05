@@ -27,3 +27,15 @@ h1 {
 .main-nav ul li a {
     font-size: 20px;
 }
+
+
+/* MY PROCESS PAGE STYLES */
+
+.my-process-container {
+    margin-right: 20%;
+    margin-left: 20%;
+}
+
+.design-steps {
+    padding: 10px;
+}

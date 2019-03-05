@@ -36,3 +36,19 @@
     padding-top: 150px;
     margin: 15px;
 }
+
+
+/* MY PROCESS PAGE STYLES */
+
+.fa-process {
+    font-size: 50px;
+    padding: 15px;
+    display: block;
+    color: #e75a7c;
+    width: 10%;
+}
+
+.design-steps {
+    padding: 20px;
+    width: 90%;
+}
