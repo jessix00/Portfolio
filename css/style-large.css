@@ -39,3 +39,11 @@ h1 {
 .design-steps {
     padding: 10px;
 }
+
+
+/* PROJECTS PAGE */
+
+.projects-container {
+    margin-right: 15%;
+    margin-left: 15%;
+}
