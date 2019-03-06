@@ -3,8 +3,7 @@
 }
 
 .main-nav {
-    height: 80px;
-    padding-top: 20px;
+    margin-top: 40px;
 }
 
 .main-nav ul {
@@ -55,3 +54,12 @@
 
 
 /* PROJECTS PAGE */
+
+.projects-wrapper {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.project-description {
+    padding-left: 30px;
+}
