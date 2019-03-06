@@ -1,27 +1,21 @@
 .container {
     max-width: 100%;
-    margin-right: 15%;
-    margin-left: 15%;
+    margin-right: 25%;
+    margin-left: 25%;
 }
 
-h1 {
-    font-size: 47px;
+.greeting-sentence {
+    font-size: 40px;
 }
 
 .logo {
     width: 130px;
     height: 130px;
     margin-left: 15%;
-    padding-left: 15px;
-}
-
-.main-nav {
-    height: 80px;
 }
 
 .main-nav ul {
     margin-right: 15%;
-    padding-right: 0;
 }
 
 .main-nav ul li a {
@@ -31,19 +25,9 @@ h1 {
 
 /* MY PROCESS PAGE STYLES */
 
-.my-process-container {
-    margin-right: 20%;
-    margin-left: 20%;
-}
-
 .design-steps {
     padding: 10px;
 }
 
 
 /* PROJECTS PAGE */
-
-.projects-container {
-    margin-right: 15%;
-    margin-left: 15%;
-}
