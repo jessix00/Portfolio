@@ -4,13 +4,7 @@ body {
 }
 
 
-/* .logo-container {
-    width: 50%;
-} */
-
-.greeting-sentence {
-    font-size: 40px;
-}
+/* NAVIGATION ITEMS */
 
 #logo {
     margin-left: 65%;
@@ -26,6 +20,13 @@ body {
 
 .main-nav ul li a {
     font-size: 20px;
+}
+
+
+/* CONTENT SECTION */
+
+.greeting-sentence {
+    font-size: 40px;
 }
 
 .content-section {
