@@ -1,0 +1,103 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+    <title>Jessica's Portfolio</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+    <link href="../fontawesome-free-5.7.2-web/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" media="screen and (min-width: 500px)" href="../css/style-medium.css">
+    <link rel="stylesheet" media="screen and (min-width: 1100px)" href="../css/style-large.css">
+    <link ref="stylesheet" href="../css/style-project-pages.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div id="nav-container">
+            <div class="logo-container">
+                <img id="logo" src="../images/jess-logo.png" alt="JC Logo">
+                <img id="small-logo" src="../images/jess-logo-small.png" alt="JC Logo small">
+            </div>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="../projects.html">Back to Projects</a></li>
+                    <li><i class="fas fa-bars" id="burger"></i></li>
+                </ul>
+            </nav>
+            <div class="burger-nav-container">
+                <nav id="burger-nav" class="hidden">
+                    <ul>
+                        <li><a href="../projects.html">Back to Projects</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+
+    <section id="content-section" class="content-height-before">
+        <h1>The Project</h1>
+        <p>Ipro currently has office visitors sign into our office with pen and paper. Once a month, the receptionist types in all of their information to an excel spreadsheet and the paper records get stored in a filing cabinet. When I first learned of
+            this outdated practice, I knew I wanted to create something that would help the company save on both supplies and labor. For the next six months I made it my mission to build something that would help automate this process.</p>
+
+        <h1> The Requirements</h1>
+        <p>Since Ipro had some web applications built in PHP already, I decided to build my visitor app using PHP, MySQL, and HTML5. I had never used PHP or MySQL in the past but I knew some basic programming concepts which helped me take on the project.
+            I pitched my idea to a few members of the company and they asked that my web-application include the following.</p>
+
+        <ul class="reception-req">
+            <li>Visitor Name</li>
+            <li>Company they are with</li>
+            <li>Time they arrived to the office</li>
+            <li>Time they left the office</li>
+            <li>Ipro contact they are here to see</li>
+            <li>Reason for visit</li>
+            <li>Badge Number</li>
+            <li>Basic filtering and searching capabilities</li>
+            <li>Downloadable CSV file of search results</li>
+        </ul>
+
+        <h1>The Product</h1>
+        <p> This is what the visitor will view when they arrive to our office and are asked to sign in. My idea was to have them use a tablet connected to our network to sign in. I made the design based on an average tablet size of 768 x 1024.</p>
+        <img class="project-capture" src="../images/projects/receptionIndex-View.png" alt="Client Sign-In Page View">
+
+        <p>When the visitor clicks on submit, the information is time stamped and sent to our MySQL database. The visitor gets a confirmation that the form was submitted and the page refreshes, ready for the next visitor to sign-in. Below is a quick glimpse
+            of how the information is structured in our MySQL database.</p>
+        <img class="project-capture" src="../images/projects/receptionDB-View.PNG" alt="Receptionist Database View">
+
+        <h1>Receptionist View</h1>
+        <p>The receptionist has access to view current visitors in the office. This page also allows the receptionist to manage the visitors and the information they’ve entered.</p>
+        <img class="project-capture" src="../images/projects/receptionCurrentVisitors-View.png" alt="Current Visitors View">
+
+        <p>If the edit icon <i class="fas fa-user-edit"></i> is selected, we are redirected to the edit page where the receptionist is able to edit the information our visitors submitted. When the record is saved, all of the updates will be sent to the database.
+            We will then be taken back to the Current Visitors view.
+            <img class="project-capture" src="../images/projects/receptionEditInfo-View.png" alt="Edit Information View">
+
+            <p>Once a visitor leaves the office, the receptionists is able to sign them out by clicking on the sign out icon <i class="fas fa-sign-out-alt"></i>. By signing them out, a time-stamp gets applied to the TimeOut column. Since the Current Visitors
+                page is only displaying information where Time-Out is null, the visitor’s information disappears from the Current Visitors page. The receptionist also has the option to conduct searches to the database. This can be done by clicking on
+                the search icon <i class="fas fa-search"></i> in the Current Visitors page. This action will take us to the search page.</p>
+
+            <h1>Search Page</h1>
+            <p>The search page allows the receptionist to type a keyword and search by the database columns. Once the receptionists clicks on the search icon <i class="fas fa-search"></i>, the results for the search keyword get returned. The receptionist
+                will now have the option to conduct another search or export the current results as a CSV file. If the export icon <i class="fas fa-file-download"></i> is selected, the file will automatically get downloaded and saved to the downloads
+                file on the PC. The back icon <i class="fas fa-arrow-left"></i> will return the receptionist to the Current Visitors page.</p>
+            <img class="project-capture" src="../images/projects/receptionSearch-View.PNG" alt="Receptionist Search View">
+
+            <h1>Conclusion</h1>
+            <p>This project was one of my favorites to build. Learning a new programming language on the fly taught me a lot of researching and troubleshooting techniques. This project is currently being tested and evaluated by Ipro and in a few months it
+                will be fully implemented. Please visit my <a href="https://github.com/jessix00/form1">Github</a> where you’ll find the source code for this project.</p>
+    </section>
+
+    <section class="email-section">
+        <h1>Interested in doing a project together?</h1>
+        <button type="button" onClick="window.location.href='mailto:jesscasillas24@gmail.com';"> Contact Me </button>
+    </section>
+    </div>
+    <footer>
+        <p>Copyright Jessica Casillas 2019</p>
+    </footer>
+</body>
+<script src="../script.js"></script>
+
+</html>

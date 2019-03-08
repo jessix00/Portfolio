@@ -1,0 +1,10 @@
+.reception-req li {
+    letter-spacing: 1px;
+    line-height: 1.6;
+    padding: 3px;
+}
+
+.project-capture {
+    max-width: 100%;
+    padding: 10px 0 10px 0;
+}
