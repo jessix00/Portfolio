@@ -1,27 +1,35 @@
-.container {
-    max-width: 100%;
+body {
     margin-right: 25%;
     margin-left: 25%;
 }
+
+
+/* .logo-container {
+    width: 50%;
+} */
 
 .greeting-sentence {
     font-size: 40px;
 }
 
 #logo {
-    margin-left: 25%;
+    margin-left: 65%;
 }
 
 #small-logo {
-    margin-left: 25%;
+    margin-left: 65%;
 }
 
 .main-nav ul {
-    margin-right: 25%;
+    margin-right: 40%;
 }
 
 .main-nav ul li a {
     font-size: 20px;
+}
+
+.content-section {
+    margin: 0;
 }
 
 
