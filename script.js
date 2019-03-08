@@ -9,8 +9,32 @@ function addHeight() {
     addHeight.classList.toggle('content-height-after');
 }
 
+function scrollFunction() {
+    var navContainer = document.getElementById("nav-container");
+    var logo = document.getElementById("logo");
+    var smallLogo = document.getElementById("small-logo");
+    //If page has been scrolled, make navigations height smaller. 
+    //Hide the large logo and display small logo.
+    if (document.body.scrollTop > 10 || document.documentElement.scrollTop > 10) {
+        navContainer.style.height = '50px';
+        logo.style.display = "none";
+        smallLogo.style.display = "block";
+    }
+    //else make navigations height larger.
+    //Display larger logo and hide smaller logo.
+    else {
+        document.getElementById('nav-container').style.height = '100px';
+        logo.style.display = "block";
+        smallLogo.style.display = "none";
+
+    }
+}
+
+
 //event listeners
 //listens for the hamburger icon to be cliecked and calls toggleMenu function
 document.getElementById('burger').addEventListener('click', toggleMenu);
 //listens for the hamburger icon to be cliecked and calls addHeight function
 document.getElementById('burger').addEventListener('click', addHeight);
+//Listens on the window for a scroll and calls the scrollFunction
+window.onscroll = function() { scrollFunction() };
