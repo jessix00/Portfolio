@@ -1,5 +1,9 @@
 /* NAVIGATION ITEMS */
 
+.logo-container {
+    width: 40%;
+}
+
 #burger {
     display: none;
 }
@@ -15,6 +19,10 @@
     text-transform: uppercase;
     display: block;
     padding-top: 70px;
+}
+
+.main-nav a:hover {
+    color: #e75a7c;
 }
 
 
