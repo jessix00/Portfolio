@@ -8,14 +8,16 @@
     font-size: 40px;
 }
 
-.logo {
-    width: 130px;
-    height: 130px;
-    margin-left: 15%;
+#logo {
+    margin-left: 25%;
+}
+
+#small-logo {
+    margin-left: 25%;
 }
 
 .main-nav ul {
-    margin-right: 15%;
+    margin-right: 25%;
 }
 
 .main-nav ul li a {

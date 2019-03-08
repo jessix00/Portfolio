@@ -25,9 +25,9 @@
         letter-spacing: 1px;
         line-height: 1.6;
     }
-    /* MAIN NAVIGATION */
+    /* NAVIGATION ITEMS */
     
-    .nav-container {
+    #nav-container {
         display: flex;
         flex-wrap: wrap;
         align-content: flex-end;
@@ -36,12 +36,23 @@
         right: 0;
         width: 100%;
         background-color: #2c363f;
+        transition: 0.2s;
     }
     
-    .logo {
-        width: 30%;
-        height: 30%;
+    #logo {
+        width: 100px;
+        height: 100px;
     }
+    
+    #small-logo {
+        padding-top: 50px;
+        width: 100px;
+        height: 50px;
+        display: none;
+    }
+    /* MAIN NAV MENU ITEMS ARE NOT VISIBLE IN MOBILE VIEW. 
+    THEY BECOME VISIBLE IN MEDIUM VIEW. THESE STYLES ALSO APPLY THE 
+    HAMBURGER ICON*/
     
     .main-nav {
         display: flex;
@@ -49,8 +60,7 @@
         flex-grow: 1;
         justify-content: flex-end;
         z-index: 9999;
-        width: 70%;
-        height: 60px;
+        width: 50%;
         margin: 0;
         font-weight: bold;
     }
@@ -64,26 +74,22 @@
     }
     
     .main-nav ul li {
-        padding: 5px;
+        padding: 0 8px 0 8px;
     }
     
     .main-nav ul li a {
-        text-decoration: none;
-        color: #54a7c4;
-        font-size: 10px;
-        text-transform: uppercase;
         display: none;
     }
     
     .main-nav a:hover {
         color: #e75a7c;
     }
-    /* HAMBURGER NAVIGATION */
+    /* HAMBURGER NAVIGATION ITEMS */
     
     #burger {
         color: white;
         font-size: 30px;
-        padding: 30px 15px 30px 15px;
+        padding: 65px 15px 0 15px;
     }
     
     #burger:hover {
@@ -96,7 +102,7 @@
         padding: 0;
         margin: 0;
     }
-    /*Class used only when hamburger menu is toggled*/
+    /*CLASS USED ONLY WHEN HAMBURGER MENU IS TOGGLED*/
     
     .hidden {
         transform: translate(-999px, -18px);
@@ -148,7 +154,7 @@
         font-family: 'Lobster', cursive;
         color: #e75a7c;
     }
-    /*Class used only when hamburger menu is toggled*/
+    /*CLASS USED ONLY WHEN HAMBURGER MENU IS TOGGLED*/
     
     .content-height-before {
         margin-top: 0;
@@ -191,7 +197,6 @@
         background-color: #54a7c4;
         font: inherit;
         text-transform: uppercase;
-        /* font-weight: bold; */
         cursor: pointer;
         border-radius: 7%;
         -webkit-transition: background-color ease 1s;
