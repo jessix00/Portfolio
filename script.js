@@ -17,16 +17,15 @@ function scrollFunction() {
     //Hide the large logo and display small logo.
     if (document.body.scrollTop > 10 || document.documentElement.scrollTop > 10) {
         navContainer.style.height = '50px';
-        logo.style.display = "none";
-        smallLogo.style.display = "block";
+        logo.style.transform = "translate(0px, -1000px)";
+        smallLogo.style.transform = "translate(0px, 0px)";
     }
     //else make navigations height larger.
     //Display larger logo and hide smaller logo.
     else {
         document.getElementById('nav-container').style.height = '100px';
-        logo.style.display = "block";
-        smallLogo.style.display = "none";
-
+        logo.style.transform = "translate(0px, 0px)";
+        smallLogo.style.transform = "translate(0px, -1000px)";
     }
 }
 
@@ -37,4 +36,4 @@ document.getElementById('burger').addEventListener('click', toggleMenu);
 //listens for the hamburger icon to be cliecked and calls addHeight function
 document.getElementById('burger').addEventListener('click', addHeight);
 //Listens on the window for a scroll and calls the scrollFunction
-window.onscroll = function() { scrollFunction() };
+window.onscroll = function() { scrollFunction() }
