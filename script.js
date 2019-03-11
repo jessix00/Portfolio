@@ -8,7 +8,7 @@ function addHeight() {
     var addHeight = document.getElementById('content-section');
     addHeight.classList.toggle('content-height-after');
 }
-
+//This funtion takes care of the logo transition from LG to SM on scroll
 function scrollFunction() {
     var navContainer = document.getElementById("nav-container");
     var logo = document.getElementById("logo");
@@ -28,7 +28,6 @@ function scrollFunction() {
         smallLogo.style.transform = "translate(0px, -1000px)";
     }
 }
-
 
 //event listeners
 //listens for the hamburger icon to be cliecked and calls toggleMenu function
