@@ -13,6 +13,7 @@
         margin: 0;
         font-weight: 100;
         line-height: 1.6;
+        letter-spacing: 1px;
         color: #5f5b6b;
     }
     
@@ -20,6 +21,8 @@
         font-size: 25px;
         color: #54a7c4;
         font-weight: 100;
+        line-height: 1.6;
+        letter-spacing: 1px;
     }
     
     p {
@@ -219,6 +222,25 @@
         background-color: #e75a7c;
         -webkit-transition: background-color ease 1s;
         transition: background-color ease 1s;
+    }
+    
+    .media-icons {
+        margin: 20px 5px;
+    }
+    
+    .media-icons a {
+        font-size: 50px;
+        color: #54a7c4;
+        text-decoration: none;
+        -webkit-transition: color ease 1s;
+        transition: color ease 1s;
+        margin: 10px;
+    }
+    
+    .media-icons a:hover {
+        color: #e75a7c;
+        -webkit-transition: color ease 1s;
+        transition: color ease 1s;
     }
     
     footer p {

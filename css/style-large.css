@@ -25,10 +25,6 @@ body {
 
 /* CONTENT SECTION */
 
-.greeting-sentence {
-    font-size: 40px;
-}
-
 .content-section {
     margin: 0;
 }
@@ -39,6 +35,3 @@ body {
 .design-steps {
     padding: 10px;
 }
-
-
-/* PROJECTS PAGE */
