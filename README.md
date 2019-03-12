@@ -1,6 +1,6 @@
 # Portfolio
 ## About
-This project is for my 2019 portfolio website.
+This is my 2019 portfolio website. This site is completely responsive. No templates were utilized, everything was custom built.
 
 ## Tech Used
 * HTML
