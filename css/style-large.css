@@ -7,27 +7,19 @@ body {
 /* NAVIGATION ITEMS */
 
 #logo {
-    margin-left: 65%;
+    margin-left: 50%;
 }
 
 #small-logo {
-    margin-left: 65%;
+    margin-left: 50%;
 }
 
 .main-nav ul {
-    margin-right: 40%;
+    margin-right: 30%;
 }
 
 .main-nav ul li a {
     font-size: 20px;
-}
-
-
-/* CONTENT SECTION */
-
-.content-container {
-    width: 1000px;
-    padding: 0 15%;
 }
 
 
