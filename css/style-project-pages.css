@@ -26,3 +26,26 @@
     max-width: 100%;
     padding: 10px 0 10px 0;
 }
+
+.project-button {
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.goToProject {
+    text-decoration: none;
+    color: inherit;
+    background-color: #e75a7c;
+    /* border: solid #2c363f 1px; */
+    border-radius: 5%;
+    padding: 12px;
+    font-size: 25px;
+    -webkit-transition: background-color ease 1s;
+    transition: background-color ease 1s;
+}
+
+.goToProject:hover {
+    background-color: #54a7c4;
+    -webkit-transition: background-color ease 1s;
+    transition: background-color ease 1s;
+}
